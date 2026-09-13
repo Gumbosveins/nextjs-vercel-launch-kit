@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Next.js / Vercel Production Launch Kit</title>
+  <meta name="description" content="A $19 go-live checklist and env packs for shipping Next.js on Vercel without mixing preview and production secrets." />
+  <style>
+    :root { color-scheme: dark; --bg:#0b0d10; --card:#14181e; --ink:#eef2f6; --muted:#9aa6b2; --line:#2a313a; --acc:#7dd3a0; }
+    * { box-sizing: border-box; }
+    body { margin:0; font: 18px/1.5 ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; background:var(--bg); color:var(--ink); }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
+    img.cover { width:100%; border-radius: 12px; border:1px solid var(--line); margin: 0 0 28px; }
+    h1 { font-size: 2rem; line-height:1.2; margin: 0 0 12px; }
+    p.lead { color: var(--muted); margin: 0 0 24px; }
+    .price { display:inline-block; background:var(--card); border:1px solid var(--line); border-radius:999px; padding:6px 12px; font-size:14px; margin-bottom:20px; }
+    a.buy { display:inline-block; background:var(--acc); color:#082016; font-weight:700; text-decoration:none; padding:12px 18px; border-radius:10px; }
+    a.buy:hover { filter: brightness(1.05); }
+    ul { padding-left: 1.2em; }
+    li { margin: 8px 0; }
+    h2 { font-size: 1.15rem; margin: 36px 0 10px; }
+    footer { margin-top: 48px; color: var(--muted); font-size: 14px; border-top:1px solid var(--line); padding-top: 16px; }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="cover" src="cover.png" alt="Next.js / Vercel Production Launch Kit" />
+    <div class="price">$19 · one-time download · Polar</div>
+    <h1>Next.js / Vercel Production Launch Kit</h1>
+    <p class="lead">A file pack you drop next to a Next.js repo the night before <code>main</code> goes live. Checklist, preview→prod runbook, and five <code>.env.example</code> packs (Next/Vercel, Polar, Neon, Resend, Supabase).</p>
+    <p><a class="buy" href="https://buy.polar.sh/polar_cl_uxzixqNM81nkPoIW3um9aacYzAmA1bXQbWqUe3EQE75">Buy on Polar — $19</a></p>
+
+    <h2>What’s in it</h2>
+    <ul>
+      <li>~60 production-launch checks: secrets, auth, billing, database, email, go-live smoke tests</li>
+      <li>A one-sitting preview → production runbook</li>
+      <li>Env packs with Production / Preview / Development scopes</li>
+      <li>The usual failure modes: <code>NEXT_PUBLIC_*</code> baked at build, Polar sandbox vs live, webhook on a dead preview URL, Neon pooled vs direct</li>
+    </ul>
+
+    <h2>What it is not</h2>
+    <ul>
+      <li>Not a SaaS boilerplate</li>
+      <li>Not a security audit, tax filing, or guarantee</li>
+      <li>Official vendor docs win when they disagree</li>
+    </ul>
+
+    <h2>Refunds</h2>
+    <p class="lead">7-day goodwill if the files will not open or the download is wrong.</p>
+
+    <footer>
+      Sold by Gumbosveins via Polar (merchant of record).<br />
+      Support: reply to your Polar order email, or use the Polar checkout receipt.
+    </footer>
+  </main>
+</body>
+</html>
