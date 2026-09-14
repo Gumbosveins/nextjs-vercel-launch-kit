@@ -23,3 +23,10 @@ Support: gumbo@travelshift.com
 - [Next.js / Vercel production env mistakes](https://dev.to/gumbosveins/the-nextjs-vercel-production-env-mistakes-that-break-launches-1d8g)
 - [Build a Vercel env matrix offline](https://dev.to/gumbosveins/build-a-vercel-env-matrix-offline-before-you-merge-and-stop-shipping-the-wrong-secrets-431a)
 - [Polar sandbox vs live webhooks](https://dev.to/gumbosveins/polar-sandbox-vs-live-webhooks-why-checkout-works-and-entitlements-do-not-5gl2)
+
+## More kits
+
+- [Deploy Guard $12](https://buy.polar.sh/polar_cl_fXjUOUonsouTBvvQLXBVvd1VdA2hVaw6LeBi32fuIjc) — [page](https://gumbosveins.github.io/deploy-guard/)
+- [Dual-Mode Webhook Lab $14](https://buy.polar.sh/polar_cl_6k1TwXMqdt8hiPyOxPrAZCLbKIfYmkeBzUUXw1QggrO) — [page](https://gumbosveins.github.io/dual-mode-webhook-lab/)
+
+Writing: [dev.to/gumbosveins](https://dev.to/gumbosveins)
